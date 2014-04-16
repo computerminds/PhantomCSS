@@ -447,7 +447,7 @@ function initClient(){
 
 			resemble(document.getElementById('image-diff-one').files[0]).
 				compareTo(document.getElementById('image-diff-two').files[0]).
-				ignoreNothing(). // <-- ignoreAntialiasing is too tolerant
+				ignoreAntialiasing(). // <-- is ignoreAntialiasing too tolerant?
 				onComplete(function(data){
 					var diffImage;
 

@@ -518,12 +518,12 @@ URL: https://github.com/Huddle/Resemble.js
 				},
 				ignoreAntialiasing: function(){
 
-					tolerance.red = 32;
-					tolerance.green = 32;
-					tolerance.blue = 32;
-					tolerance.alpha = 32;
-					tolerance.minBrightness = 64;
-					tolerance.maxBrightness = 96;
+                    tolerance.red = 24;
+                    tolerance.green = 24;
+                    tolerance.blue = 24;
+                    tolerance.alpha = 24;
+                    tolerance.minBrightness = 24;
+                    tolerance.maxBrightness = 240;
 
 					ignoreAntialiasing = true;
 					ignoreColors = false;
